@@ -1,3 +1,10 @@
+# Customized JSON Resume CLI
+
+🖼️ This is a tweaked version of the [JSON Resume CLI](https://github.com/jsonresume/resume-cli). Why did I customize it? This version works with my custom JSON schema!
+
+<details>
+  <summary>Click to expand README.md of the source repository!</summary>
+
 # resume-cli
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jsonresume/public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -104,3 +111,5 @@ npm run dev -- [cli arguments can be passed after the double-dash]
 # License
 
 Available under [the MIT license](http://mths.be/mit).
+
+</details>

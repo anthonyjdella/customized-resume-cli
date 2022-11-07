@@ -1,11 +1,13 @@
 {
-  "name": "resume-cli",
-  "version": "0.0.0-development",
-  "description": "The JSON Resume command line interface",
+  "name": "@anthonyjdella/customized-resume-cli",
+  "version": "1.0.5",
+  "description": "A customized CLI for my custom JSON Resume schema",
   "main": "index.js",
   "engines": {
     "node": ">=10.18.1"
   },
+  "author": "Anthony Dellavecchia <anthony.dellavecchia.tech@gmail.com>",
+  "homepage": "https://github.com/anthonyjdella/customized-resume-cli",
   "files": [
     "build/*",
     "!test-utils",
@@ -22,13 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsonresume/resume-cli.git"
+    "url": "https://github.com/anthonyjdella/customized-resume-cli"
   },
   "license": "MIT",
   "bin": {
     "resume": "build/main.js"
   },
   "dependencies": {
+    "anthonyjdella-resume-schema": "^1.0.1",
     "async": "^3.2.0",
     "browser-sync": "^2.26.7",
     "btoa": "^1.2.1",
@@ -44,7 +47,6 @@
     "puppeteer": "^16.1.0",
     "quaff": "^4.2.0",
     "read": "^1.0.7",
-    "resume-schema": "^1.0.0",
     "stream-to-string": "^1.2.0",
     "superagent": "^6.0.0",
     "util.promisify": "^1.0.1",
